@@ -7,7 +7,7 @@ spec:
   init:
     command: [sh, -c, 'echo "Initializing..."']
   generate:
-    command: ["/bin/external-secrets-transformer"]
+    command: ["/bin/run"]
   discover:
     find:
       command: [/bin/discover]
